@@ -142,13 +142,11 @@ void loop()
         }
 
       }
-
-      if (button == 1)
-        {
-          break;
-        }
       
       delay(2000);
+      
+      //Breaks the loop now that the name has been signaled.
+      break;
     }   
   }
 }
